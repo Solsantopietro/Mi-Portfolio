@@ -11,13 +11,19 @@ body {
   list-style-type: none;
   justify-content: flex-end;
   box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
+  padding-right: 10%;
 }
 .links-navegacion li {
-  margin: 20px;
+  margin: 30px;
+
+}
+
+.navegacion{
+  
 }
 
 .button {
-  background-color: #8338ec;
+  background-color: #C41DA1;
   color: white;
   padding: 15px 40px;
   border-radius: 100px;
@@ -26,6 +32,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .seccion-principal {
     display: flex;
     flex-direction: row;
@@ -40,17 +47,24 @@ body {
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
-    padding-left: 30%;
+    padding-left: 10%;
 }
 
-h1 {
-  margin-top: 0;
-  margin-bottom: 5px;
-  color: #8338ec;
-  text-align: center;
+h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #C41DA1;
+    text-align: center;
+}
+
+p{
+  color: #979797;
 }
 
 img {
   height: 50%;
   width: 50%;
+  padding-right: 5%;
 }
