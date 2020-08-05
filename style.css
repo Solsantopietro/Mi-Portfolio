@@ -7,11 +7,17 @@ body {
   font-weight: 600;
 }
 
+header{
+  background-color: #fff;
+  padding: 25px 0;
+  box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
+  position: relative;
+}
+
 .links-navegacion {
   display: flex;
   list-style-type: none;
   justify-content: flex-end;
-  box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
   padding-right: 10%;
 }
 
@@ -36,7 +42,7 @@ body {
 }
 
 .seccion-principal {
-    height: 700px;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -66,10 +72,14 @@ p{
   color: #979797;
 }
 
-img {
+.img-pc {
   height: 500px;
   width: auto;
   padding-right: 5%;
+}
+
+.seccion-secundaria{
+ height: 150vh;
 }
 
 .contenedor {
@@ -97,6 +107,7 @@ img {
   justify-content: center;
   align-items: center;   
   color: #2e2e31;
+  margin: 10px;
 }
 
 .parrafo-conocimientos{
