@@ -2,83 +2,115 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Mi portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <title>Mi portfolio</title>
 </head>
 
 <body>
   <header>
     <div class="container-nav">
       <nav class="navegacion">
-          <ul class="links-navegacion">
-            <li>
-              <a class="button">HOLA</a>
-            </li>
-            <li>
-              <a class="button">CONOCIMIENTOS</a>
-            </li>
-            <li>
-              <a class="button">PROYECTOS</a>
-            </li>
-            <li>
-              <a class="button-press">CONTACTO</a>
-            </li>
-          </ul>  
-          
-        </nav>
-    </div>  
-  </header>    
-    <section class="seccion-principal">
+        <div class="menu-hamburguesa"><i class="fas fa-bars"></i></div>
+        <ul class="links-navegacion">
+          <li>
+            <a href="google.com.ar" class="button">HOLA</a>
+          </li>
+          <li>
+            <a href="google.com" class="button">CONOCIMIENTOS</a>
+          </li>
+          <li>
+            <a href="google.com" class="button">PROYECTOS</a>
+          </li>
+
+            <a href="google.com" class="button-press">CONTACTO</a>
+
+        </ul>
+
+      </nav>
+    </div>
+  </header>
+  <section class="seccion-principal">
     <div class="contenido">
-        <h2 class="titulo1">¡Hola! soy </h2>
-        <h1>Sol Santopietro</h1>
-        <p>Desarrolladora, dibujante y fan de los animales</p>
-        <a class="button-press">LO QUE HAGO</a>
+      <h2 class="titulo1">¡Hola! soy </h2>
+      <h1>Sol Santopietro</h1>
+      <p>Desarrolladora, dibujante y fan de los animales</p>
+      <a class="button-press">LO QUE HAGO</a>
     </div>
     <img class="img-pc" src="./image/undraw_working_late_pukg (1).png">
-    </section>
-    <section class="seccion-secundaria">
-      <h1>Mis conocimientos</h1>
-      <p class="parrafo-conocimientos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque neque molestias consequuntur vel ab quas architecto.</p>
-      <div class="contenedor">
-        <div class="tarjeta"><img src="./image/html.png"><h3>HTML 5</h3></div>
-        <div class="tarjeta"><img src="./image/css.png"><h3>CSSC 3</h3></div>
-        <div class="tarjeta"><img src="./image/git.png"><h3>GIT</h3></div>
-        <div class="tarjeta"><img src="./image/javascript.png"><h3>JAVASCRIPT</h3></div>
-        <div class="tarjeta"><img src="./image/react.png"><h3>REACT</h3></div>
-        <div class="tarjeta"><img src="./image/sass.png"><h3>SASS</h3></div>
+  </section>
+  <section class="seccion-secundaria">
+    <h1>Mis conocimientos</h1>
+    <p class="parrafo-conocimientos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque neque
+      molestias consequuntur vel ab quas architecto.</p>
+    <div class="contenedor">
+      <div class="tarjeta"><img src="./image/html.png">
+        <h3>HTML 5</h3>
       </div>
-    </section>
-    <section class="seccion-tercearia">
-      <h1>"</h1>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quaerat aspernatur laboriosam doloremque iste perspiciatis veniam culpa beatae magni quo natus nostrum, laudantium exercitationem sit minima aut totam praesentium aliquam.</p>
-      <h1>Someone</h1>
-    </section>
-    <section class="seccion-cuaternaria">
-      <h1>Mis proyectos</h1>
-      <div class="button-proyectos">
-        <button class="button-all">TODOS</button>
-        <button class="buttons">HTML/CSS</button>
-        <button class="buttons">JAVASCRIPT</button>
-        <button class="buttons">REACT</button>
+      <div class="tarjeta"><img src="./image/css.png">
+        <h3>CSSC 3</h3>
       </div>
-      <div class="container-proyectos">
-        <div class="proyecto"><img src="./image/"><h3>Portfolio</h3></div>
-        <div class="proyecto"><img src="./image/"><h3></h3></div>
-        <div class="proyecto"><img src="./image/"><h3></h3></div>
-        <div class="proyecto"><img src="./image/"><h3></h3></div>
-        <div class="proyecto"><img src="./image/"><h3></h3></div>
-        <div class="proyecto"><img src="./image/"><h3></h3></div>
-        <div class="proyecto"><img src="./image/"><h3></h3></div>
+      <div class="tarjeta"><img src="./image/git.png">
+        <h3>GIT</h3>
       </div>
+      <div class="tarjeta"><img src="./image/javascript.png">
+        <h3>JAVASCRIPT</h3>
+      </div>
+      <div class="tarjeta"><img src="./image/react.png">
+        <h3>REACT</h3>
+      </div>
+      <div class="tarjeta"><img src="./image/sass.png">
+        <h3>SASS</h3>
+      </div>
+    </div>
+  </section>
+  <section class="seccion-tercearia">
+    <h1>"</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quaerat aspernatur laboriosam doloremque iste
+      perspiciatis veniam culpa beatae magni quo natus nostrum, laudantium exercitationem sit minima aut totam
+      praesentium aliquam.</p>
+    <h1>Someone</h1>
+  </section>
+  <section class="seccion-cuaternaria">
+    <h1>Mis proyectos</h1>
+    <div class="button-proyectos">
+      <a class="button-all">TODOS</a>
+      <a class="buttons">HTML/CSS</a>
+      <a class="buttons">JAVASCRIPT</a>
+      <a class="buttons">REACT</a>
+    </div>
+    <div class="container-proyectos">
+      <div class="proyecto"><img src="./image/">
+        <h3>Portfolio</h3>
+      </div>
+      <div class="proyecto"><img src="./image/">
+        <h3></h3>
+      </div>
+      <div class="proyecto"><img src="./image/">
+        <h3></h3>
+      </div>
+      <div class="proyecto"><img src="./image/">
+        <h3></h3>
+      </div>
+      <div class="proyecto"><img src="./image/">
+        <h3></h3>
+      </div>
+      <div class="proyecto"><img src="./image/">
+        <h3></h3>
+      </div>
+      <div class="proyecto"><img src="./image/">
+        <h3></h3>
+      </div>
+    </div>
 
-    </section>
-    <footer>
+  </section>
+  <footer>
 
-    </footer>
+  </footer>
 
-    
+
 </body>
+
 </html>
