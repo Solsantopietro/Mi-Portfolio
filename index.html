@@ -6,10 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
   <title>Mi portfolio</title>
 </head>
 
 <body>
+
+  <!-- HEADER -->
+
   <header>
     <div class="container-nav">
       <nav class="navegacion">
@@ -32,6 +36,9 @@
       </nav>
     </div>
   </header>
+
+  <!--SECCION PRESENTACION-->
+
   <section class="seccion-principal">
     <div class="contenido">
       <h2 class="titulo1">¡Hola! soy </h2>
@@ -41,8 +48,11 @@
     </div>
     <img class="img-pc" src="./image/undraw_working_late_pukg (1).png">
   </section>
+
+  <!--SECCION CONOCIMIENTOS-->
+
   <section class="seccion-secundaria">
-    <h1>Mis conocimientos</h1>
+    <h1 class="title-conocimientos">Mis conocimientos</h1>
     <p class="parrafo-conocimientos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque neque
       molestias consequuntur vel ab quas architecto.</p>
     <div class="contenedor">
@@ -66,48 +76,91 @@
       </div>
     </div>
   </section>
+
+  <!--SECCION TEXTO-->
+
+
   <section class="seccion-tercearia">
-    <h1>"</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quaerat aspernatur laboriosam doloremque iste
+    <i class="fas fa-quote-right quote-icon"></i>
+    <p class="contenido-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quaerat aspernatur laboriosam doloremque iste
       perspiciatis veniam culpa beatae magni quo natus nostrum, laudantium exercitationem sit minima aut totam
       praesentium aliquam.</p>
-    <h1>Someone</h1>
+    <h1 class="someone">Someone</h1>
   </section>
+
+  <!--SECCION PROYECTOS-->
+
   <section class="seccion-cuaternaria">
-    <h1>Mis proyectos</h1>
+    <h1 class="title-proyect">Mis proyectos</h1>
     <div class="button-proyectos">
-      <a class="button-all">TODOS</a>
-      <a class="buttons">HTML/CSS</a>
-      <a class="buttons">JAVASCRIPT</a>
-      <a class="buttons">REACT</a>
+      <button class="button-all">TODOS</button>
+      <button class="buttons">HTML/CSS</button>
+      <button class="buttons">Javascript</button>
+      <button class="buttons">React</button>
     </div>
     <div class="container-proyectos">
-      <div class="proyecto"><img src="./image/">
-        <h3>Portfolio</h3>
+      <div class="proyecto"><img class="img-proyect" src="./image/undraw_Portfolio_update_re_jqnp.png">
+        <h3 class="texto-proyecto">Portfolio</h3>
       </div>
-      <div class="proyecto"><img src="./image/">
-        <h3></h3>
+      <div class="proyecto"><img class="img-proyect" src="./image/undraw_add_to_cart_vkjp.png">
+        <h3 class="texto-proyecto">Tienda</h3>
       </div>
-      <div class="proyecto"><img src="./image/">
-        <h3></h3>
+      <div class="proyecto"><img class="img-proyect" src="./image/undraw_select_player_64ca.png">
+        <h3 class="texto-proyecto">Juego de memoria</h3>
       </div>
-      <div class="proyecto"><img src="./image/">
-        <h3></h3>
+      <div class="proyecto"><img class="img-proyect" src="./image/undraw_Savings_dwkw.png">
+        <h3 class="texto-proyecto">Controlador de gastos</h3>
       </div>
-      <div class="proyecto"><img src="./image/">
-        <h3></h3>
+      <div class="proyecto"><img class="img-proyect" src="./image/undraw_time_management_30iu.png">
+        <h3 class="texto-proyecto">Administrador de reuniones</h3>
       </div>
-      <div class="proyecto"><img src="./image/">
-        <h3></h3>
+      <div class="proyecto"><img class="img-proyect" src="./image/undraw_Mobile_application_mr4r.png">
+        <h3 class="texto-proyecto">Todo app</h3>
       </div>
-      <div class="proyecto"><img src="./image/">
-        <h3></h3>
+      <div class="proyecto"><img class="img-proyect" src="./image/undraw_movie_night_fldd.png">
+        <h3 class="texto-proyecto">Pagina de peliculas</h3>
       </div>
     </div>
 
   </section>
-  <footer>
 
+  <!--FOOTER-->
+
+  <footer>
+    <div class="container-footer">
+      <nav class="nav-footer">
+        <ul class="links-footer">
+          <li>
+            <a href="google.com.ar" class="button-footer">HOLA</a>
+          </li>
+          <li>
+            <a href="google.com" class="button-footer">CONOCIMIENTOS</a>
+          </li>
+          <li>
+            <a href="google.com" class="button-footer">PROYECTOS</a>
+          </li>
+          <li>
+            <a href="google.com" class="button-footer">CONTACTO</a>
+          </li>
+
+        </ul>
+      </nav>
+      <nav>
+        <ul class="icon-footer">
+          <li>
+            <a href="https://github.com/Solsantopietro" class="icon">
+              <i class="devicon-github-plain-wordmark"></i></a>
+          </li>
+          <li>
+            <a href="google.com" class="icon"><i class="devicon-linkedin-plain"></i></a>
+          </li>
+          <li>
+            <a href="google.com" class="icon"><i class="devicon-twitter-plain"></i></a>
+          </li>
+        </ul>
+      </nav>
+          <p class="parrafo-footer">Hecho con  ❤️ y estres</p>
+    </div>
   </footer>
 
 
