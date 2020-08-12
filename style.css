@@ -323,6 +323,9 @@ li{
   .links-navegacion{
     display: none;
   }
+  .navegacion{
+    
+  }
   .menu-hamburguesa{
     display: block;
     height: 30px;
@@ -341,19 +344,36 @@ li{
 @media(max-width: 1100px){
   .seccion-principal{
     flex-direction: column;
+    height: auto;
+  }
+  .mi-nombre{
+    align-items: center;
+    text-align: center;
+    font-size: 45px;
+  }
+  .titulo1{
+    align-items: center;
+    text-align: center;
+  }
+  .descripcion{
+    align-items: center;
+    text-align: center;
   }
   .img-pc{
+    align-items: center;
+    text-align: center;
     display: block;
     flex-wrap: wrap;
-
-    width: 100%;
-    height: auto;
+    height: 230px;
+    width: auto;
+    padding: 0;
   }
   .contenido{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding-left: 0%;
   }
 }
 
@@ -362,12 +382,18 @@ li{
 @media(max-width: 1100px){
   .seccion-secundaria{
     flex-direction: column; 
+    height: auto;
+
   }
   .title-conocimientos{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    font-size: 40px;
+  }
+  .parrafo-conocimientos{
+    margin: 0;
   }
 }
 
@@ -376,11 +402,49 @@ li{
 @media(max-width: 1100px){
   .seccion-tercearia{
     flex-direction: column; 
+    height: auto;
+
   }
-  .title-conocimientos{
-    display: flex;
-    justify-content: center;
+  
+}
+/* SECCION CUATERNARIA*/
+
+@media(max-width: 1100px){
+  .seccion-cuaternaria{
+    flex-direction: column; 
+    height: auto;
+  }
+  .button-all{
+    font-size: 15px;
+  }
+  .buttons{
+    font-size: 10px;
+  }
+}
+/* FOOTER */
+
+@media(max-width: 1100px){
+  footer{
+    flex-direction: column; 
+    height: auto;
+    margin: 0;
+  }
+  .button-footer{
     align-items: center;
+    text-align: center;
     flex-wrap: wrap;
+    font-size: 10px;
+  }
+  .links-footer{
+    display: none;
+  }
+  .icon{
+    font-size: 20px;
+  }
+  .parrafo-footer{
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 10px;
   }
 }
