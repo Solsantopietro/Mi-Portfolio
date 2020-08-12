@@ -182,7 +182,7 @@ p{
 
 .seccion-cuaternaria{
   background-color: white;
-  height: 100vh;
+  height: auto;
 
   justify-content: center;
 }
@@ -270,7 +270,6 @@ p{
   justify-content: center;
   align-items: center;
   padding: 80px 20px 60px;
-  margin-top: 300px;
   background-color: #C41DA1;
 }
 
@@ -364,8 +363,8 @@ li{
     text-align: center;
     display: block;
     flex-wrap: wrap;
-    height: 230px;
-    width: auto;
+    width: 100%;
+    height: auto;
     padding: 0;
   }
   .contenido{
@@ -427,7 +426,6 @@ li{
   footer{
     flex-direction: column; 
     height: auto;
-    margin: 0;
   }
   .button-footer{
     align-items: center;
