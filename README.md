@@ -14,4 +14,4 @@
 
 ---
 
-[Aca podran ver mi portfolio](https://solsantopietro.github.io/Mi-Portfolio/)
+[Aca podran ver mi portfolio](https://solsantopietro.github.io/Mi-Portfolio/index.html)
