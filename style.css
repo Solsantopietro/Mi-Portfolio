@@ -105,9 +105,6 @@ p{
 
 /* SECCION DOS */
 
-.seccion-secundaria{
- height: 120vh;
-}
 
 .contenedor {
   width: 60%;
@@ -322,9 +319,7 @@ li{
   .links-navegacion{
     display: none;
   }
-  .navegacion{
-    
-  }
+
   .menu-hamburguesa{
     display: block;
     height: 30px;
