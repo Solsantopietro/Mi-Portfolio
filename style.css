@@ -1,3 +1,5 @@
+/* no es necesario importar cuatro veces montserrat, podes poner los distintos pesos en el mismo import */
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
@@ -16,7 +18,9 @@ body {
 header{
   background-color: #fff;
   box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
+  /* position relative no es necesario aqui */
   position: relative;
+  /* no es necesario width 100%. justify content aqui no aplica porque este elemento no tiene display flex */
   width: 100%;
   justify-content: end;
 
@@ -69,6 +73,7 @@ button{
 .seccion-principal {
     height: 100vh;
     display: flex;
+    /* no es necesario aclarar flex direction row */
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -113,6 +118,7 @@ p{
   padding: 30px;
   display: flex;
   align-content: center;
+  /* aca pones dos veces justify content con valores diferentes */
   justify-content: center;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -230,6 +236,8 @@ p{
   padding: 30px;
   display: flex;
   align-content: center;
+
+  /* nuevamente, dos ordenes contradictorias en el mismo selector */
   justify-content: center;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -341,19 +349,23 @@ li{
     height: auto;
   }
   .mi-nombre{
+    /* no tiene sentido align items center aqui porque este elemento no es flex  */
     align-items: center;
     text-align: center;
     font-size: 45px;
   }
   .titulo1{
+    /* no tiene sentido align items center aqui porque este elemento no es flex  */
     align-items: center;
     text-align: center;
   }
   .descripcion{
+    /* no tiene sentido align items center aqui porque este elemento no es flex  */
     align-items: center;
     text-align: center;
   }
   .img-pc{
+    /* ninguna de estas ordenes es necesaria aqui, salvo width, height y padding */
     align-items: center;
     text-align: center;
     display: block;
@@ -380,6 +392,7 @@ li{
 
   }
   .title-conocimientos{
+    /* flex solo se debe usar cuando se trata de un contenedor de elemntos, no en un h1 */
     display: flex;
     justify-content: center;
     align-items: center;
