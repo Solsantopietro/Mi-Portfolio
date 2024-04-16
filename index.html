@@ -15,7 +15,7 @@
   <!-- HEADER -->
 
   <header>
-    <div class="container-nav">
+    <div class="container-nav fixed-top">
       <nav class="navegacion">
         <div class="menu-hamburguesa"><i class="fas fa-bars"></i></div>
         <ul class="links-navegacion">
@@ -43,7 +43,7 @@
     <div class="contenido">
       <h2 id="presentacion" class="titulo1">¡Hola! soy </h2>
       <h1 class="mi-nombre">Sol Santopietro</h1>
-      <p class="descripcion">Desarrolladora, dibujante y fan de los animales</p>
+      <p class="descripcion">Desarrolladora FullStack e hice un par de jueguitos</p>
       <a class="button-press">LO QUE HAGO</a>
     </div>
     <img class="img-pc" src="./image/undraw_working_late_pukg (1).png">
@@ -53,8 +53,7 @@
 
   <section class="seccion-secundaria">
     <h1 id="conocimientos" class="title-conocimientos">Mis conocimientos</h1>
-    <p class="parrafo-conocimientos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque neque
-      molestias consequuntur vel ab quas architecto.</p>
+    <p class="parrafo-conocimientos">Estos son mis conocimientos despues de terminar mi curso en Ada ITW, donde me enseñaron lenguajes y otras tecnologias para terminar mis proyectos.</p>
     <div class="contenedor">
       <div class="tarjeta"><img src="./image/html.png">
         <h3>HTML 5</h3>
@@ -82,10 +81,8 @@
 
   <section class="seccion-tercearia">
     <i class="fas fa-quote-right quote-icon"></i>
-    <p class="contenido-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quaerat aspernatur laboriosam doloremque iste
-      perspiciatis veniam culpa beatae magni quo natus nostrum, laudantium exercitationem sit minima aut totam
-      praesentium aliquam.</p>
-    <h1 class="someone">Someone</h1>
+    <p class="contenido-texto">Portfolio viejo, el nuevo esa en proceso, paciencia...</p>
+    <!-- <h1 class="someone">Someone</h1> -->
   </section>
 
   <!--SECCION PROYECTOS-->
@@ -93,33 +90,49 @@
   <section class="seccion-cuaternaria">
     <h1 id="proyectos" class="title-proyect">Mis proyectos</h1>
     <div class="button-proyectos">
-      <button class="button-all">TODOS</button>
-      <button class="buttons">HTML/CSS</button>
-      <button class="buttons">Javascript</button>
-      <button class="buttons">React</button>
+      <button class="button-all filtro selected" data-conocimientos="Todos">TODOS</button>
+      <button class="buttons filtro" data-conocimientos="HTML/CSS">HTML/CSS</button>
+      <button class="buttons filtro" data-conocimientos="JavaScript">Javascript</button>
+      <button class="buttons filtro" data-conocimientos="React">React</button>
     </div>
+
     <div class="container-proyectos">
-      <div class="proyecto"><img class="img-proyect" src="./image/undraw_Portfolio_update_re_jqnp.png">
+
+      <div class="proyecto" data-conocimientos="HTML/CSS" >
+        <img class="img-proyect" src="./image/undraw_Portfolio_update_re_jqnp.png">
         <h3 class="texto-proyecto">Portfolio</h3>
       </div>
-      <div class="proyecto"><img class="img-proyect" src="./image/undraw_add_to_cart_vkjp.png">
+
+      <div class="proyecto" data-conocimientos="JavaScript">
+        <img class="img-proyect" src="./image/undraw_add_to_cart_vkjp.png">
         <h3 class="texto-proyecto">Tienda</h3>
       </div>
-      <div class="proyecto"><img class="img-proyect" src="./image/undraw_select_player_64ca.png">
-        <h3 class="texto-proyecto">Juego de memoria</h3>
+
+      <div class="proyecto" data-conocimientos="JavaScript">
+        <img class="img-proyect" src="./image/undraw_select_player_64ca.png">
+        <h3 class="texto-proyecto">Matchadas</h3>
       </div>
-      <div class="proyecto"><img class="img-proyect" src="./image/undraw_Savings_dwkw.png">
-        <h3 class="texto-proyecto">Controlador de gastos</h3>
+
+      <div class="proyecto"  data-conocimientos="JavaScript">
+        <img class="img-proyect" src="./image/undraw_Mobile_application_mr4r.png">
+        <h3 class="texto-proyecto">Juego de combate</h3>
       </div>
-      <div class="proyecto"><img class="img-proyect" src="./image/undraw_time_management_30iu.png">
-        <h3 class="texto-proyecto">Administrador de reuniones</h3>
+      
+      <div class="proyecto" data-conocimientos="JavaScript">
+        <img class="img-proyect" src="./image/undraw_Savings_dwkw.png">
+        <h3 class="texto-proyecto">Buscador de comics</h3>
       </div>
-      <div class="proyecto"><img class="img-proyect" src="./image/undraw_Mobile_application_mr4r.png">
-        <h3 class="texto-proyecto">Todo app</h3>
+
+      <div class="proyecto" data-conocimientos="React">
+        <img class="img-proyect" src="./image/undraw_time_management_30iu.png">
+        <h3 class="texto-proyecto">Catalogo de peliculas</h3>
       </div>
-      <div class="proyecto"><img class="img-proyect" src="./image/undraw_movie_night_fldd.png">
-        <h3 class="texto-proyecto">Pagina de peliculas</h3>
+
+      <div class="proyecto"  data-conocimientos="React">
+        <img class="img-proyect" src="./image/undraw_movie_night_fldd.png">
+        <h3 class="texto-proyecto">qsy</h3>
       </div>
+
     </div>
 
   </section>
@@ -149,7 +162,7 @@
         <ul class="icon-footer">
           <li>
             <a href="https://github.com/Solsantopietro" class="icon">
-              <i class="devicon-github-plain-wordmark"></i></a>
+              <i class="devicon-github-original"></i></a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/sol-santopietro-a6176b196/" class="icon"><i class="devicon-linkedin-plain"></i></a>
@@ -162,7 +175,7 @@
           <p class="parrafo-footer">Hecho con  ❤️ y estres</p>
     </div>
   </footer>
-
+ <script src="index.js"></script>
 
 </body>
 
